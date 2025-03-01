@@ -1,0 +1,90 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condition statements</title>
+</head>
+<body>
+    <h1><center>VOTING ELIGIBLE OR NOT </center></h1>
+    <script>
+        let  age=parseInt(prompt("Enter your age:- "))
+        if  (age>=18){
+            document.write("You are eligible to vote")
+        }
+        else{
+            document.write("You are not eligible to vote")
+        }
+    </script>
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lopping statements</title>
+</head>
+<body>
+    <h1><center>Here the table you want</center></h1>
+    <script>
+        let table=parseInt(prompt("Enter your number for print the table"));
+        for (let i=1; i<=12; i++)
+        {
+            document.write(`${table} * ${i} = ${i * table} <br>`);
+        }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lopping statements</title>
+</head>
+<body>
+    <h1><center>Here the table you want</center></h1>
+    <script>
+        let table=parseInt(prompt("Enter your number for print the table"));
+        let i=1;
+        while (i<=12)
+        {
+            document.write(`${table}*${i}=${i * table} <br>`)
+            i++;
+        }
+    </script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing words</title>
+    <style>
+        button{
+            color: whitesmoke;
+            background: purple;
+        }
+        button:hover{
+            background: rgb(143, 88, 143);
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Changing words</center></h1>
+    <h4 id="myText">Here's my name is SATISH</h4>
+    <h4>To Click the button for now my full name</h4>
+    <button onclick="changeText()">CLICK ME</button>
+    <script>
+        function changeText() 
+        {
+            document.getElementById("myText").innerHTML = "my full name is PETA SATISH KUMAR";
+        }
+    </script>
+</body>
+</html>
